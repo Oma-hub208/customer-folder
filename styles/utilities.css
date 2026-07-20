@@ -1,0 +1,18 @@
+.mobile-container {
+  max-width: 430px;
+  margin: 0 auto;
+}
+
+.page-padding {
+  padding: 24px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
