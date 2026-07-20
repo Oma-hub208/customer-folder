@@ -1,11 +1,10 @@
+import { ReactNode } from "react";
+import { AuthContainer } from "@/components/auth/auth-container";
+
 export default function AuthLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <main className="min-h-screen bg-background">
-      {children}
-    </main>
-  );
+}: {
+  children: ReactNode;
+}) {
+  return <AuthContainer>{children}</AuthContainer>;
 }
