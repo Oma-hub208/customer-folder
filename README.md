@@ -42,45 +42,39 @@ The project is built with a **mobile-first** approach because the primary users 
 
 ## Project Structure
 
-```
-app/
+awin-frontend/
 │
-├── (auth)/
-│   ├── login/
-│   ├── register/
-│   └── forgot-password/
+├── app/
+│   ├── (auth)/
+│   │   ├── login/
+│   │   ├── register/
+│   │   ├── forgot-password/
+│   │   └── layout.tsx
+│   │
+│   ├── (dashboard)/
+│   │   ├── dashboard/
+│   │   ├── customers/
+│   │   ├── credit-sales/
+│   │   ├── repayments/
+│   │   ├── reports/
+│   │   └── settings/
+│   │
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
 │
-├── (dashboard)/
-│   ├── dashboard/
-│   ├── customers/
-│   ├── credit-sales/
-│   ├── repayments/
-│   ├── reports/
-│   └── settings/
-│
-├── api/
-└── layout.tsx
-
-components/
-├── ui/
-├── common/
-├── forms/
-├── navigation/
-└── dashboard/
-
-features/
-├── auth/
-├── customers/
-├── credit-sales/
-├── repayments/
-└── reports/
-
-hooks/
-lib/
-types/
-utils/
-constants/
-```
+├── components/
+├── features/
+├── hooks/
+├── lib/
+├── services/
+├── styles/
+├── types/
+├── utils/
+├── constants/
+├── public/
+├── package.json
+└── README.md
 
 ---
 
@@ -271,7 +265,7 @@ This project is currently private. Licensing information will be added before pu
 
 ## Maintainers
 
-- David Emulo — Product Designer & Frontend Developer
+- David Emulo — Frontend Developer
 
 ---
 
